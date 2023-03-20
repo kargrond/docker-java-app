@@ -1,6 +1,6 @@
 FROM openjdk:17-jdk-alpine
 
-ADD build/libs/*.jar app
+ADD build/libs/*.jar app/
 
 EXPOSE 8080
 
